@@ -5,7 +5,7 @@ FROM ruby:2.3
 RUN apt-get update -qq && \
     apt-get install -y build-essential
 
-# create application directory and install dependencies; some test comments
+# create application directory and install dependencies; some more test comments
 ENV APP_HOME /app
 RUN mkdir $APP_HOME
 WORKDIR $APP_HOME
